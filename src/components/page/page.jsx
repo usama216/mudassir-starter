@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-const page = (props) => {
+const Page = (props) => {
   const {title, children} = props
   return (
     <div>
@@ -12,4 +12,4 @@ const page = (props) => {
   )
 }
 
-export default page
+export default Page

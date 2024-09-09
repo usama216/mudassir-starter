@@ -23,7 +23,7 @@ const Heading = ({ children, clr = "#fff", ...props }) => {
       variant={variant}
       fontWeight="bold"
       color={clr}
-      fontFamily="Poppins"
+      // fontFamily="Poppins"
       lineHeight={1.5}
       {...props}
     >

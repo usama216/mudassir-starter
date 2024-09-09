@@ -8,7 +8,8 @@ export default function Router() {
         path:'/',
         element : <Landing /> ,
        },
-       
+
+
     ])
     return element
 }

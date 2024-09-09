@@ -6,18 +6,24 @@ const StyledRoot = styled(Box)(({ theme }) => ({
   minHeight: "80vh",
 }));
 const Content = () => {
+
+
   const handleToast = () => {
     ToastComp({
       variant: "success",
       message: "This is success message",
     });
   };
+  
+  
   const handleRequest = async () => {
     const resp = await request({
       url: `/sport/coaches/id`,
       method: "post",
     });
   };
+  
+  
   return (
     <StyledRoot>
       <Button variant="contained" onClick={handleToast}>
